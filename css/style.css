@@ -9915,6 +9915,143 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+/* Aurora Travel Custom Theme */
+:root {
+  --aurora-primary: #0f766e;
+  --aurora-secondary: #f97316;
+}
+
+body {
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #1f2933;
+}
+
+.ftco-navbar-light {
+  background: rgba(15, 118, 110, 0.95) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-item.active > .nav-link {
+  color: #fef3c7 !important;
+}
+
+.hero-gradient .overlay {
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.85) 0%, rgba(17, 24, 39, 0.8) 100%);
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+}
+
+.hero-cta .btn {
+  border-radius: 30px;
+  min-width: 220px;
+  box-shadow: 0 15px 35px rgba(15, 118, 110, 0.35);
+}
+
+.hero-cta .btn.btn-outline-light {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: none;
+}
+
+.hero-cta .btn.btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--aurora-primary) 0%, #1f8a70 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0b524d 0%, var(--aurora-primary) 100%);
+}
+
+.btn-secondary {
+  background: var(--aurora-secondary);
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: #c2410c;
+}
+
+.services .icon {
+  background: rgba(15, 118, 110, 0.12);
+  border-radius: 50%;
+}
+
+.services .heading {
+  font-weight: 600;
+}
+
+.destination-card {
+  padding: 2rem 1.25rem;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(15, 118, 110, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(15, 118, 110, 0.14);
+}
+
+.car-wrap {
+  border: none;
+  box-shadow: 0 12px 40px rgba(15, 118, 110, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-wrap:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 55px rgba(15, 118, 110, 0.18);
+}
+
+.car-wrap .price {
+  color: var(--aurora-primary);
+  font-weight: 600;
+}
+
+.car-wrap .text-muted {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.car-list .heading {
+  letter-spacing: 0.5px;
+}
+
+.car-list .price-rate .num {
+  color: var(--aurora-primary);
+  font-weight: 700;
+}
+
+.car-list .price-rate .subheading {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.ftco-intro .btn-primary {
+  box-shadow: 0 12px 30px rgba(249, 115, 22, 0.35);
+}
+
+.testimony-wrap {
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(17, 24, 39, 0.12);
+}
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
